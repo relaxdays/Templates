@@ -10,7 +10,8 @@ on:
 
 jobs:
   test:
-    name: Run tests
+    # TODO: Explain weird name
+    name: .
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
